@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.grid--2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: hsl(244, 38%, 16%);
+  max-width: 120rem;
+  height: auto;
+  column-gap: 3.2rem;
+  border-radius: 0.5rem;
+}
+
+/* .preview-image img {
+  width: 100%;
+  height: 100%;
+} */
+
+.preview-image {
+  background-image: linear-gradient(#b200ed53);
+  object-fit: cover;
+  background-image: linear-gradient(
+      rgba(77, 2, 105, 0.5),
+      rgba(77, 0, 105, 0.5)
+    ),
+    url(/images/image-header-desktop.jpg);
+  background: lin;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.preview-text {
+  padding: 8rem;
+}
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -0.4px;
+  margin-bottom: 3.2rem;
+}
+
+h1 span {
+  color: #b218e5;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.4;
+  margin-bottom: 6.4rem;
+}
+
+.grid--3-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  row-gap: 0.3rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  column-gap: 3rem;
+}
+.preview-num {
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 700;
+}

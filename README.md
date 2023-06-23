@@ -4,4 +4,4 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Goal is to make a template like this using HTML and CSS:-
 
-![snap](/images/image-header-desktop.jpg)
+![snap](/design/desktop-design.jpg)
